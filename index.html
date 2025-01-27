@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio </title>
+  </head>
+  <body>
+
+    <nav class="bg-gray-800 p-6">
+  <div class="flex justify-between items-center px-4">
+    <h1 class="text-3xl font-bold text-white underline ">Manas Upadhyay</h1>
+    <div class="relative">
+      <!-- Hamburger Menu Button -->
+      <div 
+        id="menu-button" 
+        class="flex flex-col justify-between w-6 h-6 cursor-pointer"
+      >
+        <span class="block h-1 bg-white rounded"></span>
+        <span class="block h-1 bg-white rounded"></span>
+        <span class="block h-1 bg-white rounded"></span>
+      </div>
+    
+      <!-- Dropdown Menu -->
+      <div 
+        id="menu" 
+        class="absolute top-8 right-0 bg-white text-black shadow-lg rounded-md w-40 hidden"
+      >
+        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Home</a>
+        <a href="https://www.linkedin.com/in/manas-upadhyay-82061533b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="block px-4 py-2 hover:bg-gray-200">Linkedln</a>
+        <a href="https://github.com/Manxs25" class="block px-4 py-2 hover:bg-gray-200">GitHub</a>
+      </div>
+    </div>
+    
+    <script>
+      const menuButton = document.getElementById('menu-button');
+      const menu = document.getElementById('menu');
+    
+      menuButton.addEventListener('click', () => {
+        menu.classList.toggle('hidden'); // Show/hide the menu on click
+      });
+    </script>
+  </div>
+  </nav>
+    
+      <br>
+       
+      <div class = "flex flex-col items-start px-4">
+        <h3 class = "text-3xl font-bold text-white underline"> About Me</h3>
+        <p class = "text-2xl font-bold text-white " >I am Manas Upadhyay, a second-year B.Tech student specializing in Computer Science and Engineering at SRM Ghaziabad. I have a strong foundation in web development with expertise in the MERN (MongoDB, Express.js, React, Node.js) stack. My academic journey and hands-on experience with several projects have honed my problem-solving and coding skills. I am passionate about building efficient, user-friendly applications and continuously expanding my knowledge in full-stack development. </p>
+        <br>
+        <h3 class = "text-3xl font-bold text-white underline"> Education</h3>
+        <li class = "text-2xl font-bold text-white ">
+          Class Xth:80%, </li>
+          <li class = "text-2xl font-bold text-white "> Class XIIth:70%
+            </li>
+            <li class = "text-2xl font-bold text-white " >Btech.(Computer Science Engineering)- SRM Delhi Ncr</li>
+            <br>
+
+            <div>
+              <h3 class = "text-3xl font-bold text-white underline"> Skills</h3>
+              <li class = "text-2xl font-bold text-white ">
+                Html </li>
+                <li class = "text-2xl font-bold text-white "> Css
+                  </li>
+                  <li class = "text-2xl font-bold text-white " >JavaScript</li>
+                  <li class = "text-2xl font-bold text-white ">
+                    C++ </li>
+                    <li class = "text-2xl font-bold text-white "> Python
+                      </li>
+                      <li class = "text-2xl font-bold text-white " >Java</li>
+                      <li class = "text-2xl font-bold text-white ">
+                        React.js </li>
+                        <li class = "text-2xl font-bold text-white "> node.js
+                          </li>
+                          <li class = "text-2xl font-bold text-white " >express.js</li> 
+                          <li class = "text-2xl font-bold text-white " >Mongodb</li> 
+
+
+            </div>
+
+
+      </div>
+      <br>
+
+      <div>
+        <h3 class = "text-3xl font-bold text-white underline"> Contact</h3>
+        <div class="flex items-center space-x-4">
+          <a href="tel:+919599959534" class="text-white text-xl">
+            <i class="fas fa-phone-alt"></i>
+            <span>+919599959534</span>
+          </a>
+        </div>
+
+      </div>
+      <br>
+      <div>
+        <h3 class = "text-3xl font-bold text-white underline"> Projects</h3>
+        <a href="https://github.com/Manxs25?tab=projects" class = "text-xl font-bold text-white underline ">open GitHub projects</a>
+        
+      </div>
+    
+     <footer class="bg-gray-800 p-6">
+
+     </footer>
+      
+    
+</html>
